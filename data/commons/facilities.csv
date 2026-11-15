@@ -1,0 +1,48 @@
+facility_id,facility_name,facility_type,system,zip,clia_number,has_ed,syndromic_connected,city
+1,Puente County Medical Center,hospital,PCHS,95101,05D9100001,True,True,Puente City
+2,Cordillera Medical Center - Puente City,hospital,Cordillera Health,95103,05D9100002,True,True,Puente City
+3,Cordillera Medical Center - Arroyo Junction,hospital,Cordillera Health,95203,05D9100003,True,True,Arroyo Junction
+4,Cordillera Medical Center - Sierra Vista,hospital,Cordillera Health,95301,05D9100004,True,True,Sierra Vista
+5,Sagebrush Regional Hospital,hospital,Sagebrush Health Partners,95201,05D9100005,True,True,Mesa Linda
+6,Sagebrush Community Hospital,hospital,Sagebrush Health Partners,95104,05D9100006,True,False,Harbor Heights
+7,Puente Reference Laboratory,laboratory,Independent,95106,05D9100007,False,False,Las Palmas
+8,Coastal Diagnostics,laboratory,Independent,95108,05D9100008,False,False,Del Arco
+9,Valley Clinical Laboratories,laboratory,Independent,95205,05D9100009,False,False,Colina
+10,Puente County Public Health Laboratory,public_health_lab,DPH,95101,05D9100010,False,False,Puente City
+11,PCHS Puente City Central Clinic,clinic,PCHS,95101,05D9100011,False,False,Puente City
+12,PCHS Harbor Heights Clinic,clinic,PCHS,95105,05D9100012,False,False,Harbor Heights
+13,PCHS Las Palmas Clinic,clinic,PCHS,95106,05D9100013,False,False,Las Palmas
+14,PCHS Del Arco Clinic,clinic,PCHS,95108,05D9100014,False,False,Del Arco
+15,PCHS Bellavista Clinic,clinic,PCHS,95111,05D9100015,False,False,Bellavista
+16,PCHS Mesa Linda Clinic,clinic,PCHS,95202,05D9100016,False,False,Mesa Linda
+17,PCHS Arroyo Junction Clinic,clinic,PCHS,95204,05D9100017,False,False,Arroyo Junction
+18,PCHS Colina Clinic,clinic,PCHS,95205,05D9100018,False,False,Colina
+19,PCHS San Teodoro Clinic,clinic,PCHS,95207,05D9100019,False,False,San Teodoro
+20,PCHS Sierra Vista Clinic,clinic,PCHS,95302,05D9100020,False,False,Sierra Vista
+21,PCHS Oak Hollow Clinic,clinic,PCHS,95303,05D9100021,False,False,Oak Hollow
+22,Lucero Mesa Linda Health Center,clinic,Lucero CHC,95201,05D9100022,False,False,Mesa Linda
+23,Lucero San Teodoro Health Center,clinic,Lucero CHC,95208,05D9100023,False,False,San Teodoro
+24,Lucero Quail Flats Health Center,clinic,Lucero CHC,95209,05D9100024,False,False,Quail Flats
+25,Lucero Valle del Sol Health Center,clinic,Lucero CHC,95304,05D9100025,False,False,Valle del Sol
+26,Lucero Oak Hollow Health Center,clinic,Lucero CHC,95303,05D9100026,False,False,Oak Hollow
+27,Lucero School-Based Health Center - Mesa Linda High,school_clinic,Lucero CHC,95202,,False,False,Mesa Linda
+28,Lucero School-Based Health Center - Oak Hollow Middle,school_clinic,Lucero CHC,95303,,False,False,Oak Hollow
+29,Lucero Mobile Health Unit,mobile_clinic,Lucero CHC,95304,,False,False,Valle del Sol
+30,Lucero Dental - Quail Flats,dental,Lucero CHC,95209,,False,False,Quail Flats
+31,DPH Sexual Health Clinic,dph_clinic,DPH,95101,05D9100031,False,False,Puente City
+32,DPH Tuberculosis Clinic,dph_clinic,DPH,95101,05D9100032,False,False,Puente City
+33,DPH Immunization Clinic - Puente City,dph_clinic,DPH,95102,,False,False,Puente City
+34,DPH Immunization Clinic - Mesa Linda,dph_clinic,DPH,95201,,False,False,Mesa Linda
+35,DPH Immunization Clinic - Sierra Vista,dph_clinic,DPH,95301,,False,False,Sierra Vista
+36,Harbor Pediatrics,physician_office,Independent,95104,,False,False,Harbor Heights
+37,Las Palmas Family Medicine,physician_office,Independent,95107,,False,False,Las Palmas
+38,Monte Alto Internal Medicine,physician_office,Independent,95110,,False,False,Monte Alto
+39,Colina Pediatric Associates,physician_office,Independent,95206,,False,False,Colina
+40,QuickCare Urgent Care - Mesa Linda,urgent_care,Independent,95201,05D9100040,False,False,Mesa Linda
+41,QuickCare Urgent Care - Puente City,urgent_care,Independent,95103,05D9100041,False,False,Puente City
+42,CareRx Pharmacy #114,pharmacy,CareRx,95101,,False,False,Puente City
+43,CareRx Pharmacy #208,pharmacy,CareRx,95203,,False,False,Arroyo Junction
+44,CareRx Pharmacy #315,pharmacy,CareRx,95301,,False,False,Sierra Vista
+45,Valle Market Pharmacy,pharmacy,Independent,95304,,False,False,Valle del Sol
+46,Cordillera Medical Group - Las Palmas,physician_office,Cordillera Health,95106,,False,False,Las Palmas
+47,Sagebrush Medical Group - Colina,physician_office,Sagebrush Health Partners,95205,,False,False,Colina

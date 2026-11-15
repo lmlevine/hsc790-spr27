@@ -1,0 +1,85 @@
+{
+  "resourceType": "CapabilityStatement",
+  "status": "active",
+  "date": "2027-01-15",
+  "kind": "instance",
+  "fhirVersion": "4.0.1",
+  "format": [
+    "json"
+  ],
+  "software": {
+    "name": "Puente County HIO FHIR API (synthetic, for teaching)"
+  },
+  "implementation": {
+    "description": "Regional health information organization FHIR endpoint (fictional)",
+    "url": "https://fhir.puente-hio.example/baseR4"
+  },
+  "rest": [
+    {
+      "mode": "server",
+      "resource": [
+        {
+          "type": "Patient",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "family",
+              "type": "string"
+            },
+            {
+              "name": "birthdate",
+              "type": "date"
+            },
+            {
+              "name": "_tag",
+              "type": "token"
+            }
+          ]
+        },
+        {
+          "type": "Observation",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchInclude": [
+            "Observation:patient"
+          ],
+          "searchParam": [
+            {
+              "name": "patient",
+              "type": "reference"
+            },
+            {
+              "name": "code",
+              "type": "token"
+            },
+            {
+              "name": "date",
+              "type": "date"
+            },
+            {
+              "name": "_tag",
+              "type": "token"
+            },
+            {
+              "name": "_count",
+              "type": "number"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# never publish instructor material
+instructor/
+*_solution.ipynb
+solutions/
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

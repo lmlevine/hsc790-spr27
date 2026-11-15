@@ -1,0 +1,7 @@
+hospital_id,facility_name,system,zip,city,syndromic_connected
+1,Puente County Medical Center,PCHS,95101,Puente City,True
+2,Cordillera Medical Center - Puente City,Cordillera Health,95103,Puente City,True
+3,Cordillera Medical Center - Arroyo Junction,Cordillera Health,95203,Arroyo Junction,True
+4,Cordillera Medical Center - Sierra Vista,Cordillera Health,95301,Sierra Vista,True
+5,Sagebrush Regional Hospital,Sagebrush Health Partners,95201,Mesa Linda,True
+6,Sagebrush Community Hospital,Sagebrush Health Partners,95104,Harbor Heights,False

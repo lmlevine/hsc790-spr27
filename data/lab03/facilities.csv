@@ -1,0 +1,13 @@
+facility_id,facility_name,facility_type,zip,city
+1,Puente County Medical Center,hospital,95101,Puente City
+11,PCHS Puente City Central Clinic,clinic,95101,Puente City
+12,PCHS Harbor Heights Clinic,clinic,95105,Harbor Heights
+13,PCHS Las Palmas Clinic,clinic,95106,Las Palmas
+14,PCHS Del Arco Clinic,clinic,95108,Del Arco
+15,PCHS Bellavista Clinic,clinic,95111,Bellavista
+16,PCHS Mesa Linda Clinic,clinic,95202,Mesa Linda
+17,PCHS Arroyo Junction Clinic,clinic,95204,Arroyo Junction
+18,PCHS Colina Clinic,clinic,95205,Colina
+19,PCHS San Teodoro Clinic,clinic,95207,San Teodoro
+20,PCHS Sierra Vista Clinic,clinic,95302,Sierra Vista
+21,PCHS Oak Hollow Clinic,clinic,95303,Oak Hollow

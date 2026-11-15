@@ -1,0 +1,9 @@
+outbreak_id,syndrome,zip_codes,start_date,end_date,scope,description
+GI-2025-A,gi,95203;95204,2025-09-08,2025-09-24,local,Norovirus-like illness linked to a catering company serving two warehouse cafeterias
+GI-2025-B,gi,95111,2025-03-17,2025-03-29,local,Gastroenteritis after a quinceanera banquet
+GI-2025-C,gi,95303,2025-05-12,2025-05-21,local,Diarrheal illness at a farm labor camp; water system suspected
+ILI-2025-SCH,ili,95305,2025-10-06,2025-10-16,local,Influenza-like illness outbreak at a Cedar Springs school
+ILI-2024-25-SEASON,ili,all,2024-12-02,2025-03-15,county,2024-25 influenza season (peak late January)
+ILI-2025-26-SEASON,ili,all,2025-11-24,2025-12-31,county,"2025-26 influenza season, onset (continues into 2026)"
+HEAT-2025-07,heat,Corridor;Foothills,2025-07-12,2025-07-20,regional,Heat wave; Corridor highs of 105-111F
+HEAT-2025-09,heat,Corridor;Foothills,2025-09-01,2025-09-06,regional,Labor Day heat wave

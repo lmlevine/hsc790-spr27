@@ -1,0 +1,18 @@
+condition_code,condition_name,category
+CHLAM,Chlamydia trachomatis infection,sti
+GONO,Gonorrhea,sti
+SYPH,Syphilis (all stages),sti
+HCV,"Hepatitis C, chronic",hepatitis
+HBV,"Hepatitis B, chronic",hepatitis
+HAV,Hepatitis A,hepatitis
+CAMP,Campylobacteriosis,enteric
+SALM,Salmonellosis,enteric
+SHIG,Shigellosis,enteric
+STEC,Shiga toxin-producing E. coli infection,enteric
+PERT,Pertussis,vaccine_preventable
+COCCI,Coccidioidomycosis (Valley fever),fungal
+TB,Tuberculosis,respiratory
+LEGI,Legionellosis,respiratory
+MPOX,Mpox,other
+MEAS,Measles,vaccine_preventable
+COVID19,COVID-19,respiratory

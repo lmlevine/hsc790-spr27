@@ -1,0 +1,17 @@
+condition_code,condition_name
+CHLAM,Chlamydia trachomatis infection
+GONO,Gonorrhea
+SYPH,Syphilis (all stages)
+HCV,"Hepatitis C, chronic"
+HBV,"Hepatitis B, chronic"
+HAV,Hepatitis A
+CAMP,Campylobacteriosis
+SALM,Salmonellosis
+SHIG,Shigellosis
+STEC,Shiga toxin-producing E. coli infection
+PERT,Pertussis
+COCCI,Coccidioidomycosis (Valley fever)
+TB,Tuberculosis
+LEGI,Legionellosis
+MPOX,Mpox
+MEAS,Measles
