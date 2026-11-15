@@ -12,26 +12,26 @@ One notebook per lab, in `notebooks/`. Open it in Colab, then File → Save a co
 
 | Lab | Week | Title | Notebook |
 |---|---|---|---|
-| 0 | 1 | Set Up the Workbench | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab00.ipynb) |
-| 1 | 2 | Build a Reportable-Disease Registry | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab01.ipynb) |
-| 2 | 3 | Build a Pipeline That Checks Itself | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab02.ipynb) |
-| 3 | 4 | Write a Phenotype, Then Find Out How Wrong It Is | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab03.ipynb) |
-| 4 | 5 | Two Front Doors, One Registry | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab04.ipynb) |
-| 5 | 6 | Link Three Sources Without a Shared Identifier | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab05.ipynb) |
-| 6 | 7 | Build a Detector and Measure How Often It Cries Wolf | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab06.ipynb) |
-| 7 | 8 | Nowcast the Right Edge, Then Publish Safely | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab07.ipynb) |
-| 8 | 9 | Break a "De-identified" Release, Then Repair It | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab08.ipynb) |
-| 9 | 10 | Build a Cohort Someone Else Could Rebuild | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab09.ipynb) |
-| 10 | 11 | Train Here, Validate There, Audit Everyone | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab10.ipynb) |
-| 11 | 12 | Build the Harness Before You Trust the Model | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab11.ipynb) |
-| 12 | 13 | Did the Rollout Work? | [Open in Colab](https://colab.research.google.com/github/OWNER/hsc790-spr27/blob/main/notebooks/lab12.ipynb) |
+| 0 | 1 | Set Up the Workbench | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab00.ipynb) |
+| 1 | 2 | Build a Reportable-Disease Registry | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab01.ipynb) |
+| 2 | 3 | Build a Pipeline That Checks Itself | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab02.ipynb) |
+| 3 | 4 | Write a Phenotype, Then Find Out How Wrong It Is | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab03.ipynb) |
+| 4 | 5 | Two Front Doors, One Registry | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab04.ipynb) |
+| 5 | 6 | Link Three Sources Without a Shared Identifier | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab05.ipynb) |
+| 6 | 7 | Build a Detector and Measure How Often It Cries Wolf | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab06.ipynb) |
+| 7 | 8 | Nowcast the Right Edge, Then Publish Safely | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab07.ipynb) |
+| 8 | 9 | Break a "De-identified" Release, Then Repair It | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab08.ipynb) |
+| 9 | 10 | Build a Cohort Someone Else Could Rebuild | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab09.ipynb) |
+| 10 | 11 | Train Here, Validate There, Audit Everyone | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab10.ipynb) |
+| 11 | 12 | Build the Harness Before You Trust the Model | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab11.ipynb) |
+| 12 | 13 | Did the Rollout Work? | [Open in Colab](https://colab.research.google.com/github/lmlevine/hsc790-spr27/blob/main/notebooks/lab12.ipynb) |
 
 ## Load a file in Colab
 
 Every file loads by URL into a fresh runtime. Nothing needs to be downloaded or uploaded.
 
 ```python
-COURSE_URL = "https://raw.githubusercontent.com/OWNER/hsc790-spr27/main/data/"
+COURSE_URL = "https://raw.githubusercontent.com/lmlevine/hsc790-spr27/main/data/"
 
 import pandas as pd
 patients = pd.read_csv(COURSE_URL + "commons/patients.csv", dtype={"zip": str})
